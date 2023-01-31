@@ -1,0 +1,7 @@
+#!/bin/bash
+# fix based on https://forums.autodesk.com/t5/eagle-forum/running-eagle-on-fedora-33-dialogs-fail-display-properly-appears/m-p/10156138#M33482
+
+# export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+QT_XCB_GL_INTEGRATION=xcb_egl ./eagle
+
+
